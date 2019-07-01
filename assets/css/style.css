@@ -28,8 +28,13 @@ h2 {
 #links {
     float: right;
     width: 30%;
+    margin-top: 5%;
 }
-
+a:link {
+    text-decoration: none;
+    color: #bbb;
+  }
+  
 .clearfix::after {
     content: " ";
     display: block;
