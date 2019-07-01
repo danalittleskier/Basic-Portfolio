@@ -37,14 +37,21 @@ h2 {
   }
 
 .container {
-    background-image: url("../images/fresh_snow.png");  
+    background-image: url("../images/fresh_snow.png"); 
+    width: 100%;
+    overflow: auto;
+    clear: both; 
 
 } 
 #about-me {
+    background-color: #ffffff;
     width: 960px;
-    margin: 0 auto;
+    height: 600px;
+    padding-top: 10px;
+    margin: 20px auto;
 }
 h4 {
+    color: #4aaaa5;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -61,5 +68,5 @@ h4 {
     background: #666666;
     text-align: center;
     margin-top: 20px;
-    border-color: #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 }
