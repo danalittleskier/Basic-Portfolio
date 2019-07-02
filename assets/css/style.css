@@ -78,17 +78,38 @@ h2 {
     float: left;
 }
 
-#portfolio {
-    position: relative;
+#imageBox {
+    position: absolute;
+    height: 400px;
 }
 
-#image1 {
-    top: 20px;
+.images {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    margin: 10px 10px 25px 10px;
 }
 
-#image2 {
-    top: 20px;
-    right: 40px;
+.image1 {
+    top: 5px;
+}
+
+.image2 {
+    top: 5px;
+    left: 140px;
+}
+
+.image3 {
+    top: 150px;
+}
+
+.image4 {
+    top: 150px;
+    left: 140px;
+}
+
+.image5 {
+    top: 295px;
 }
 .footer {
     clear: both;
