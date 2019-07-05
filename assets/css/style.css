@@ -25,7 +25,7 @@ h1 {
     margin: 0 auto;
 
 }
-#links {
+nav {
     float: right;
     width: 30%;
     margin: 0 auto;
@@ -63,12 +63,13 @@ a:visited {
     width: 960px;
     height: 600px;
     padding-top: 10px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 h2 {
     color: #4aaaa5;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 10px;
 }
 
 #bio-image {
@@ -77,40 +78,45 @@ h2 {
     margin: 10px;
     float: left;
 }
-
-#imageBox {
-    position: absolute;
-    height: 400px;
+.imageBox {
+    display: flex;
+    width: 300px;
+    margin-left: 20px;
+    flex-flow: row wrap; 
+    justify-content: flex-start; 
 }
-
-.images {
-    position: absolute;
+.imageContainer {
+    position: relative;
     width: 125px;
     height: 125px;
-    margin: 10px 10px 25px 10px;
+
+}
+.images {
+    width: 125px;  
+    height: 125px; 
+    margin: 10px;
 }
 
-.image1 {
-    top: 5px;
+.imagelabel {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 125px;
+    height: 25px;
+    margin: 10px;
+    z-index: 2;
 }
-
-.image2 {
-    top: 5px;
-    left: 140px;
-}
-
-.image3 {
-    top: 150px;
-}
-
-.image4 {
-    top: 150px;
-    left: 140px;
-}
-
-.image5 {
-    top: 295px;
-}
+ .formcontainer {
+     margin-left: 20px;
+ }
+ input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+  }
 .footer {
     clear: both;
     background: #666666;
