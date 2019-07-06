@@ -85,10 +85,8 @@ h2 {
     flex-flow: row wrap; 
     justify-content: flex-start; 
 }
-.imageContainer {
+.imagecontainer {
     position: relative;
-    width: 125px;
-    height: 125px;
 
 }
 .images {
@@ -104,6 +102,7 @@ h2 {
     width: 125px;
     height: 25px;
     margin: 10px;
+    bottom: 15px;
     z-index: 2;
 }
  .formcontainer {
